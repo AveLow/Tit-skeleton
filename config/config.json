@@ -14,9 +14,9 @@
   },
 
   "dependencyContainer":{
-    "name": {
-      "path": "path\\to\\class",
-      "injections": ["name", "of", "injection"]
+    "AcmeController": {
+      "path": "src\\Acme\\Controller\\AcmeController",
+      "injections": ["App"]
     }
   }
 }

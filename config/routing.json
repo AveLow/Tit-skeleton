@@ -1,8 +1,8 @@
 {
   "name": {
-    "method": "method",
-    "url": "/url.html",
-    "controller": "ControllerName",
-    "action": "ActionName"
+    "method": "GET",
+    "url": "/",
+    "controller": "AcmeController",
+    "action": "index"
   }
 }
