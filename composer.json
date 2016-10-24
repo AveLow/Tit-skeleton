@@ -1,0 +1,19 @@
+{
+    "name": "avelow/tit-skeleton",
+    "description": "Skeleton for Tit framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexis Merceron",
+            "email": "merceron.alexis.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "avelow/tit-tit": "0.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src"
+        }
+    }
+}
