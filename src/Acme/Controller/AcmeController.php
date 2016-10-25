@@ -21,7 +21,8 @@ class AcmeController extends Controller {
      * @param array $args
      * @return ResponseInterface
      */
-    public function index(RequestInterface $request, ResponseInterface $response, array $args): ResponseInterface{
-        return $this->twig->render($response, '\Acme\View\index.html.twig', array());
+    public function index(RequestInterface $request, ResponseInterface $response, array $args){
+    // For php7.1 public function index(RequestInterface $request, ResponseInterface $response, array $args): ResponseInterface{
+            return $this->twig->render($response, '\Acme\View\index.html.twig', array());
     }
 }
