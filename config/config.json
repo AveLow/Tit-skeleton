@@ -1,6 +1,10 @@
 {
   "settings": {
     "displayErrorDetails": true,
+    "errors":{
+      "enableCustoms": false,
+      "className": "none"
+    },
     "db": {
       "host": "localhost",
       "name": "local",
