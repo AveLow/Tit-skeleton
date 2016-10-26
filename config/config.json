@@ -5,6 +5,13 @@
       "enableCustoms": false,
       "className": "none"
     },
+    "session":{
+      "name": "name",
+      "limit": 0,
+      "path": "/",
+      "domain": null,
+      "secure": null
+    },
     "db": {
       "host": "localhost",
       "name": "local",
