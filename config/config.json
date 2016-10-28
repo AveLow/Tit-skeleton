@@ -22,12 +22,5 @@
       "template-path": "/src",
       "cache": false
     }
-  },
-
-  "dependencyContainer":{
-    "AcmeController": {
-      "path": "src\\Acme\\Controller\\AcmeController",
-      "injections": ["App"]
-    }
   }
 }

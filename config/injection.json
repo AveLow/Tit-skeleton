@@ -1,0 +1,6 @@
+{
+  "AcmeController": {
+    "path": "src\\Acme\\Controller\\AcmeController",
+    "injections": ["App"]
+  }
+}
